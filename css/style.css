@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color: rgba(169, 169, 169, 0.096);
+    overflow-y:auto;
+}
+h1{
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center;
+    color:#7E0514;
+}
+h1::after{
+    
+}
+.outerDiv{
+    margin:0 auto;
+}
+
+.innerDiv{
+    width:360px;
+    height:480px;
+    background-color: #7E0514;
+    margin:50px auto;
+    border-radius: 34px;
+    border:3px solid #AC2D36;
+    border-right:3px solid #AC2D36;
+    /* overflow: hidden; */
+    display:flex;
+    position: relative;
+}
+
+.left{
+    width:120px;
+    padding:8px;
+    position: relative;
+}
+
+.right{
+    width:240px;
+    height:474px;
+    background-color: #000000;
+    border:3px solid #AC2D36;
+    border-top:none;
+    border-bottom: none;
+    border-right:none;
+    border-radius: 25px;
+    padding:5px;
+    /* overflow: hidden; */
+    z-index:9999;
+    position: relative;
+}
+.phoneScreen{
+    width:222px;
+    height: 464px;
+    border-radius: 25px;
+    /* background: rgb(44,6,52);
+background: radial-gradient(circle, rgba(44,6,52,1) 3%, rgba(42,64,103,1) 57%, rgba(2,0,36,1) 72%, rgba(70,10,62,1) 80%, rgba(0,212,255,1) 93%); */
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2021/09/2022.Twist_Red_Dark-390w-844h@3xiphone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phoneSpeaker{
+    width:30px;
+    height:4px;
+    border-radius: 25px;
+    background-color: #1E1C1C;
+    margin:0 auto;
+}
+.phoneSpeakerInside{
+    width:30px;
+    height:4px;
+    border-radius: 25px;
+    background-color: #1E1C1C;
+    border:1px solid #000000;
+}
+.iphoneNotch{
+    width:80px;
+    height:22px;
+    background-color: #000000;
+    margin:0 auto;
+    border-radius:0 0 15px 15px;
+    padding:8px;
+    padding-top:0;
+}
+.frontcamra{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background-color: #1E1C1C;
+    padding:2px;
+}
+.innerCamralans{
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background-color: #2E3C6B;
+}
+
+.backCamraModule{
+    width:100px;
+    height:100px;
+    background-color: #9F4247;
+    border:2px solid #BC3C48;
+    border-left:4px solid #BC3C48;
+    border-bottom:none;
+    border-radius: 32px;
+    position: relative;
+    padding:8px;
+    box-shadow:1px 2px 2px 1px #BC3C48;
+}
+.backCamra{
+    width:40px;
+    height:40px;
+    background-color: #1E1C1C;
+    border-radius: 50%;
+    display: inline-block;
+    padding:2px;
+    border:2px solid #A12832;
+}
+.backCamra1InnerLans{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    border:5px solid #000000;
+    padding:6px;
+}
+.backCamra2InnerLans{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background: rgb(42,64,103);
+    background: radial-gradient(circle, rgba(42,64,103,1) 5%, rgba(2,0,36,1) 30%, rgba(9,11,47,1) 53%, rgba(0,212,255,1) 100%);
+}
+.back1FLash{
+    background: rgb(42,64,103);
+    background: radial-gradient(circle, rgba(42,64,103,1) 1%, rgba(222,212,201,1) 7%, rgba(2,0,36,1) 95%, rgba(0,212,255,1) 100%);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    right:12px;
+    top:16px;
+
+}
+.backCamra2{
+    position:absolute;
+    bottom:8px;
+    right:8px;
+}
+.back2Flash{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #828282;
+    position:absolute;
+    bottom:22px;
+    left:1.3em;
+    border:2px solid #9F4247;
+}
+.innerDiv::before{
+    content:'';
+    position: absolute;
+    top:25%;
+    left:-5px;
+    width:3px;
+    height:55px;
+    border-radius: 25px;
+    background-color: #BC3C48;
+}
+.innerDiv::after{
+    content:'';
+    position: absolute;
+    top:25%;
+    right:-5px;
+    width:3px;
+    height:55px;
+    border-radius: 25px;
+    background-color: #BC3C48;
+}
+.right::before{
+    content:'';
+    position: absolute;
+    top:25%;
+    left:-5px;
+    width:4px;
+    height:25px;
+    border-radius: 25px;
+    background-color: #BC3C48;
+}
+
+/* .appleLogo{
+    width:78px;
+    height:48px;
+    margin-left: 80px;
+    margin-top:100px;
+    background-color: #ffffff;
+    border-radius: 50% 0% 78% 100%;
+} */
